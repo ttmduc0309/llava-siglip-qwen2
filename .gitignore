@@ -1,0 +1,39 @@
+# Python
+__pycache__
+*.pyc
+*.egg-info
+dist
+
+# Log
+*.log
+*.log.*
+*.json
+*.jsonl
+
+# Data
+playground/*
+images/fintwit-images/*
+push_hub.py
+MMMU_eval/data/*
+
+# Editor
+.idea
+*.swp
+
+# Other
+.DS_Store
+wandb
+output
+
+checkpoints/*
+!checkpoints/Qwen2-1.5B-Instruct-pretrain-FinVis/
+ckpts*
+
+.ipynb_checkpoints
+*.ipynb
+
+# DevContainer
+!.devcontainer/*
+
+# Demo
+serve_images/
