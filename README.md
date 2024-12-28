@@ -2,12 +2,8 @@
 
 For more details on usage, refer to the original [LLaVA repository](https://github.com/haotian-liu/LLaVA). This custom repository specifically integrates the Qwen2 base model to leverage its advanced capabilities.
 
-## Download
-
-```bash
-git lfs install
-git clone https://www.modelscope.cn/TobyYang7/llava-qwen2-1.5b-instruct-finvis.git
-```
+## Download model weight
+huggingface-cli download toongs/llava-qwen2-siglip-Vietdoc50k --local-dir models/llava-qwen2
 
 
 ## Pretrain Qwen2
