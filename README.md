@@ -3,7 +3,7 @@
 For more details on usage, refer to the original [LLaVA repository](https://github.com/haotian-liu/LLaVA). This custom repository specifically integrates the Qwen2 base model to leverage its advanced capabilities.
 
 ## Download model weight
-huggingface-cli download toongs/llava-qwen2-siglip-Vietdoc50k --local-dir models/llava-qwen2
+`huggingface-cli download toongs/llava-qwen2-siglip-Vietdoc50k --local-dir models/llava-qwen2`
 
 
 ## Pretrain Qwen2
