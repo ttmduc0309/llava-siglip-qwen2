@@ -1,8 +1,14 @@
 # LLaVA-Qwen2: Enhanced with Qwen2 Base Model
 
 ## Download model weight
-`huggingface-cli download toongs/llava-qwen2-siglip-Vietdoc50k --local-dir models/llava-qwen2`
+```bash
+huggingface-cli download toongs/llava-qwen2-siglip-Vietdoc50k --local-dir models/llava-qwen2
+```
 
+```bash
+## download vision tower(make sure to change the llava-qwen config after download)
+huggingface-cli download google/siglip-base-patch16-256-multilingual --local-dir models/lingual_siglip
+```
 
 ## Pretrain Qwen2
 
