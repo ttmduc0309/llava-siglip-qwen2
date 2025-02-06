@@ -396,8 +396,9 @@ Answer the questions.""",
 
 # fix: add qwen2
 conv_qwen_2 = Conversation(
-    system="A chat between a curious user and an artificial intelligence assistant. "
-    "The assistant gives helpful, detailed, and polite answers to the user's questions.",
+    system="""Bạn là một mô hình Trả lời Câu hỏi từ Ảnh Sách Giáo khoa. Nhiệm vụ của bạn là phân tích hình ảnh từ sách giáo khoa Tiếng Việt, kết hợp với câu hỏi được cung cấp để đưa ra câu trả lời chính xác và phù hợp với ngữ cảnh giáo dục.
+        Yêu cầu khi trả lời: TRẢ LỜI NGẮN GỌN
+        """,
     roles=("USER", "ASSISTANT"),
     version="qwen_v2",
     messages=(),

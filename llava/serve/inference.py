@@ -85,7 +85,7 @@ def main(args):
     prompt = conv.get_prompt()
 
     input_ids = tokenizer_image_token(prompt, tokenizer, IMAGE_TOKEN_INDEX, return_tensors='pt').unsqueeze(0).to(model.device)
-    stop_str = conv.sep if conv.sep_style != SeparatorStyle.TWO else conv.sep2
+    stop_str = ".  "
     keywords = [stop_str]
     stopping_criteria = KeywordsStoppingCriteria([stop_str], tokenizer, input_ids)
 
