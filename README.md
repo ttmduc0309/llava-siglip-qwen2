@@ -2,6 +2,7 @@
 
 ## Download model weight
 ```bash
+## download full the final model (make sure to change the vision tower file path)
 huggingface-cli download toongs/llava-qwen2-siglip-Vietdoc50k --local-dir models/llava-qwen2
 ```
 
